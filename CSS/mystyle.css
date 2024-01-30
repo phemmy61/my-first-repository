@@ -1,0 +1,48 @@
+body {
+    background-color: #efeee7;
+}
+head
+#different_font {
+    font-family: Georgia,"Times New Roman",Times,serif;
+    color: #333333;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+header {
+    background-color: #333333;
+}
+h1 {
+    color: #eee;
+    font-size:28px;
+}
+h2{
+    font-size: 24px;
+    width: 1024px;
+    margin: 0 auto;
+}
+section {
+    float: left;
+}
+img {
+    float: left;
+}
+img {
+    width: 200px;
+}
+section {
+    width: 70%;
+}
+section {
+    margin-right: 100px;
+}
+h2 {
+    max-width: 30%;
+    line-height: 1.5;
+}
+a {
+    color: #d21034
+}
+
