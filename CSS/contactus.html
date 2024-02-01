@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Us Form </title>
+    </head>
+    <body>
+
+<form action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="1c4d2dfb-3778-424a-8daa-4004244cbd68">
+    <input type="hidden" name="redirect" value="file:///C:/Users/okeow/projects/my-first-repository/CSS/thanks.html">
+    <input type="hidden" name="subject" value="New Submission from Web3Forms">
+    <input type="hidden" name="Notifications" value="Mission Control">
+
+
+    <div><label for ="name">Name:</label>
+    <input type="text" name="name" required></div>
+
+    <div><label for="email">Email:</label>
+    <input type="email" name="email" required></div>
+
+    <div><label for="message">Message:</label>
+    <textarea name="message" required></textarea></div>
+
+    <div class="h-captcha" data-captcha="true"></div>
+    <button type="submit">Submit Form</button>
+
+</form>
+
+<script src="https://web3forms.com/client/script.js" async defer></script>
+    </body>
+    </html>
